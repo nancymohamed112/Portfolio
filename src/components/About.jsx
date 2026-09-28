@@ -11,7 +11,7 @@ const About = () => {
           About <span className="text-cyan-400">Me</span>
         </h2>
         <p className="text-gray-400 text-base">
-          Bridging the gap between creative design and powerful code.
+          Building high-performance, modern, and interactive web applications.
         </p>
       </div>
 
@@ -19,18 +19,16 @@ const About = () => {
         {/* Left Side: Bio / Description */}
         <div className="text-left space-y-6">
           <h3 className="text-2xl font-bold text-white">
-            Passionate UI/UX Lecturer & Front-End Developer
+            Passionate Front-End Developer & Web Engineer
           </h3>
           <p className="text-gray-300 leading-relaxed text-base">
-            I am Mostafa Abo Elmagd, a dedicated UI/UX lecturer and front-end
-            development instructor. I specialize in teaching user experience
-            design, computer literacy, and modern web technologies.
+            I am Mostafa Abo Elmagd, a dedicated front-end developer specializing
+            in building scalable, responsive, and dynamic web interfaces.
           </p>
           <p className="text-gray-400 leading-relaxed text-sm">
-            With a deep focus on building scalable web interfaces using React,
-            Tailwind CSS, and JavaScript, I bridge the gap between aesthetic
-            design and clean, efficient code to deliver outstanding digital
-            experiences.
+            With a strong focus on clean code and efficient architecture using React,
+            Tailwind CSS, and modern JavaScript, I transform complex requirements 
+            into seamless and exceptional user experiences on the web.
           </p>
 
           <div className="pt-4">
@@ -52,37 +50,37 @@ const About = () => {
         <div className="grid grid-cols-2 gap-6">
           <div className="bg-[#141414] border border-gray-800 p-6 rounded-2xl text-center hover:border-cyan-500/40 transition">
             <span className="block text-3xl font-extrabold text-cyan-400 mb-2">
-              UI/UX
-            </span>
-            <span className="text-gray-400 text-sm font-medium">
-              Design & Teaching
-            </span>
-          </div>
-
-          <div className="bg-[#141414] border border-gray-800 p-6 rounded-2xl text-center hover:border-cyan-500/40 transition">
-            <span className="block text-3xl font-extrabold text-cyan-400 mb-2">
               React
             </span>
             <span className="text-gray-400 text-sm font-medium">
-              Front-End Dev
+              Component Architecture
             </span>
           </div>
 
           <div className="bg-[#141414] border border-gray-800 p-6 rounded-2xl text-center hover:border-cyan-500/40 transition">
             <span className="block text-3xl font-extrabold text-cyan-400 mb-2">
-              Figma
+              Tailwind
             </span>
             <span className="text-gray-400 text-sm font-medium">
-              Prototyping & Systems
+              Responsive Styling
             </span>
           </div>
 
           <div className="bg-[#141414] border border-gray-800 p-6 rounded-2xl text-center hover:border-cyan-500/40 transition">
             <span className="block text-3xl font-extrabold text-cyan-400 mb-2">
-              CMS
+              JS/ES6+
             </span>
             <span className="text-gray-400 text-sm font-medium">
-              Strapi & APIs
+              Interactive Logic
+            </span>
+          </div>
+
+          <div className="bg-[#141414] border border-gray-800 p-6 rounded-2xl text-center hover:border-cyan-500/40 transition">
+            <span className="block text-3xl font-extrabold text-cyan-400 mb-2">
+              APIs
+            </span>
+            <span className="text-gray-400 text-sm font-medium">
+              Integration & State
             </span>
           </div>
         </div>

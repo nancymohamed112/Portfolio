@@ -20,15 +20,15 @@ const Hero = () => {
           <p className="text-gray-400 text-lg mb-1">Hello, I'm</p>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-3 tracking-tight text-white">
-            Mostafa Abo Elmagd
+            Nancy Mohamed
           </h1>
 
           <h2 className="text-cyan-400 text-lg sm:text-xl font-semibold mb-3">
-            UI/UX Lecturer & Front-End Developer
+            Front-End Developer
           </h2>
 
           <p className="text-gray-400 max-w-lg mb-8 text-sm sm:text-base leading-relaxed mx-auto md:mx-0">
-            Transforming complex ideas into stunning, user-centered web
+            Transforming complex ideas into stunning, high-performance web
             interfaces and interactive applications using React and Tailwind.
           </p>
 
@@ -43,16 +43,15 @@ const Hero = () => {
 
             <div className="flex items-center gap-3 w-full sm:w-auto justify-center">
               <a
-                href="/Mostafa_Mohamed_CV.pdf"
+                href="/Nancy_Mohamed_CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-gray-700 text-gray-300 px-5 py-3 rounded-full font-bold text-xs sm:text-sm hover:border-gray-500 hover:text-white transition text-center flex-1 sm:flex-initial"
               >
                 View CV
               </a>
-
               <a
-                href="/Mostafa_Mohamed_CV.pdf"
+                href="/Nancy_Mohamed_CV.pdf"
                 download="Mostafa_Mohamed_Mahmoud_CV.pdf"
                 className="border border-gray-700 text-gray-300 px-5 py-3 rounded-full font-bold text-xs sm:text-sm hover:border-gray-500 hover:text-white transition text-center flex-1 sm:flex-initial"
               >
@@ -64,55 +63,40 @@ const Hero = () => {
           {/* Social Media Icons */}
           <div className="flex justify-center md:justify-start items-center gap-4 text-gray-400 text-lg">
             <a
-              href="https://wa.me/201096244719"
+              href="https://wa.me/201025025828"
               target="_blank"
               rel="noreferrer"
               className="hover:text-cyan-400 transition p-2 bg-gray-900 border border-gray-800 rounded-full hover:border-cyan-500/50"
             >
               <FaWhatsapp />
             </a>
+          
             <a
-              href="https://www.facebook.com/share/19G8N7AN5K/"
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-cyan-400 transition p-2 bg-gray-900 border border-gray-800 rounded-full hover:border-cyan-500/50"
-            >
-              <FaFacebookF />
-            </a>
-            <a
-              href="https://t.me/+201096244719"
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-cyan-400 transition p-2 bg-gray-900 border border-gray-800 rounded-full hover:border-cyan-500/50"
-            >
-              <FaTelegramPlane />
-            </a>
-            <a
-              href="https://github.com/mostafaaboelmagd"
+              href="https://github.com/nancymohamed112"
               target="_blank"
               rel="noreferrer"
               className="hover:text-cyan-400 transition p-2 bg-gray-900 border border-gray-800 rounded-full hover:border-cyan-500/50"
             >
               <FaGithub />
             </a>
-            <a
+            {/* <a
               href="https://www.linkedin.com/in/mostafa-abo-elmagd?utm_source=share_via&utm_content=profile&utm_medium=member_android"
               target="_blank"
               rel="noreferrer"
               className="hover:text-cyan-400 transition p-2 bg-gray-900 border border-gray-800 rounded-full hover:border-cyan-500/50"
             >
               <FaLinkedinIn />
-            </a>
+            </a> */}
           </div>
         </div>
 
-        {/* Right Side: Circular Profile Image */}
+        {/* Right Side: Profile Image */}
         <div className="flex-shrink-0 relative">
           <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-cyan-500/40 shadow-2xl shadow-cyan-500/10 group bg-gray-900">
             <img
               src={profileImg}
-              alt="Mostafa Abo Elmagd"
-              className="w-full h-full object-cover object-top group-hover:scale-105 transition duration-500"
+              alt="Nancy Mohamed"
+              className="w-full h-full object-cover object-center group-hover:scale-105 transition duration-500"
             />
           </div>
 

@@ -6,29 +6,23 @@ const projectsData = [
     category: "Portfolio Website",
     description: "A modern and responsive personal portfolio showcasing my web development projects, skills, and professional experience with sleek dark-mode styling.",
     tags: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
-    link: "https://mostafaaboelmagd.github.io/Personal-Portfolio/"
+    link: "https://nancymohamed112.github.io/Personal-Portfolio/"
   },
   {
     title: "To-Do App",
     category: "Task Management Web App",
     description: "A dynamic task management application featuring full CRUD operations, category filtering, and LocalStorage data persistence.",
     tags: ["JavaScript", "DOM Manipulation", "LocalStorage", "GitHub Pages"],
-    link: "https://mostafaaboelmagd.github.io/To-Do-App/"
+    link: "https://nancymohamed112.github.io/To-Do-App/"
   },
-  {
-    title: "JavaScript Calculator",
-    category: "Interactive Utility App",
-    description: "A fully functional calculator built with JavaScript featuring clean UI design, responsive layout, and precise mathematical operations.",
-    tags: ["JavaScript", "HTML", "CSS", "GitHub Pages"],
-    link: "https://mostafaaboelmagd.github.io/js-calculator/"
-  },
-  {
-    title: "Movies-show",
-    category: "Streaming & Entertainment Web App",
-    description: "A comprehensive movie and show streaming interface featuring subscription pages, authentication flows, and responsive media layouts.",
+ {
+    title: "Store System",
+    category: "E-Commerce Web Application",
+    description: "A comprehensive store system featuring product management, interactive shopping cart, responsive layout, and seamless user experience.",
     tags: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
-    link: "https://mostafaaboelmagd.github.io/Movies-show/"
-  }
+    link: "https://nancymohamed112.github.io/Store-System/"
+  },
+
 ];
 
 const Projects = () => {

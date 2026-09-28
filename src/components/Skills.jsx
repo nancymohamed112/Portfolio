@@ -2,32 +2,30 @@ import React from 'react';
 
 const skillsData = [
   {
-    category: "Front-End Development",
+    category: "Core Front-End",
     skills: [
       { name: "React.js", level: "Advanced" },
       { name: "JavaScript (ES6+)", level: "Advanced" },
       { name: "HTML5 / CSS3", level: "Expert" },
+      { name: "Responsive Design", level: "Expert" }
+    ]
+  },
+  {
+    category: "Styling & Frameworks",
+    skills: [
       { name: "Tailwind CSS", level: "Expert" },
-      { name: "Bootstrap & DaisyUI", level: "Advanced" },
+      { name: "Bootstrap 5", level: "Advanced" },
+      { name: "DaisyUI", level: "Advanced" },
       { name: "Formik & Validation", level: "Intermediate" }
     ]
   },
   {
-    category: "UI/UX & Design",
+    category: "Tools & Workflow",
     skills: [
-      { name: "Figma (Prototyping)", level: "Expert" },
-      { name: "Design Systems", level: "Advanced" },
-      { name: "User Research & Wireframing", level: "Advanced" },
-      { name: "Responsive Web Design", level: "Expert" }
-    ]
-  },
-  {
-    category: "Backend & Tools",
-    skills: [
-      { name: "Strapi CMS & REST APIs", level: "Intermediate" },
       { name: "Git & GitHub", level: "Advanced" },
-      { name: "Vite & Deployment", level: "Advanced" },
-      { name: "Technical Teaching & Training", level: "Expert" }
+      { name: "Vite & Bundlers", level: "Advanced" },
+      { name: "REST APIs & Axios", level: "Advanced" },
+      { name: "Deployment (Vercel)", level: "Advanced" }
     ]
   }
 ];
@@ -40,7 +38,7 @@ const Skills = () => {
           My <span className="text-cyan-400">Skills</span>
         </h2>
         <p className="text-gray-400 text-base">
-          A comprehensive breakdown of the technologies and tools I use to teach and build digital products.
+          A comprehensive breakdown of the technologies and modern tools I use to build scalable web applications.
         </p>
       </div>
 

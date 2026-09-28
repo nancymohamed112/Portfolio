@@ -9,7 +9,7 @@ const Navbar = () => {
         
         {/* Logo*/}
         <a href="#" className="text-xl font-black tracking-wider text-white">
-          MOSTAFA
+          Nancy
         </a>
 
         {/* Desktop Navigation Links */}
