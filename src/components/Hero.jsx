@@ -43,7 +43,7 @@ const Hero = () => {
 
             <div className="flex items-center gap-3 w-full sm:w-auto justify-center">
               <a
-                href="/Nancy_Mohamed_CV.pdf"
+                href={`${import.meta.env.BASE_URL}Nancy_Mohamed_CV.pdf`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-gray-700 text-gray-300 px-5 py-3 rounded-full font-bold text-xs sm:text-sm hover:border-gray-500 hover:text-white transition text-center flex-1 sm:flex-initial"
@@ -51,7 +51,7 @@ const Hero = () => {
                 View CV
               </a>
               <a
-                href="/Nancy_Mohamed_CV.pdf"
+                href={`${import.meta.env.BASE_URL}Nancy_Mohamed_CV.pdf`}
                 download="Mostafa_Mohamed_Mahmoud_CV.pdf"
                 className="border border-gray-700 text-gray-300 px-5 py-3 rounded-full font-bold text-xs sm:text-sm hover:border-gray-500 hover:text-white transition text-center flex-1 sm:flex-initial"
               >
@@ -70,7 +70,7 @@ const Hero = () => {
             >
               <FaWhatsapp />
             </a>
-          
+
             <a
               href="https://github.com/nancymohamed112"
               target="_blank"
